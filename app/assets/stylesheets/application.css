@@ -30,3 +30,11 @@ table td {
 table td:nth-child(n+3) {
   padding-right: 10px;
 }
+
+form > * {
+  margin-bottom: 25px;
+}
+
+form label {
+  display: block;
+}
