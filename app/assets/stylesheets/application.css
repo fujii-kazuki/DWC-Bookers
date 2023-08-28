@@ -73,3 +73,7 @@ form .field_with_errors > textarea {
   background-color: #EEE;
   font-size: 14px;
 }
+
+.flash.success {
+  color: green;
+}
