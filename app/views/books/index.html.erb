@@ -23,7 +23,7 @@
 
 <h2>New book</h2>
 
-<%= form_with model: @book, url: '/books', method: :post do |f| %>
+<%= form_with model: @book, url: books_path, method: :post do |f| %>
   <div class="field">
     <%= f.label :title %>
     <%= f.text_field :title %>
@@ -34,5 +34,5 @@
     <%= f.text_area :body %>
   </div>
 
-  <%= f.submit 'Create Book' %>
+  <%= f.submit "Create Book" %>
 <% end %>
