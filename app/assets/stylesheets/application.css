@@ -22,3 +22,11 @@ body {
 p {
   margin: 30px;
 }
+
+table td {
+  padding: 5px 40px 5px 0;
+}
+
+table td:nth-child(n+3) {
+  padding-right: 10px;
+}
